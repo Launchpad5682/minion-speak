@@ -5,6 +5,10 @@
   font-family: "Indie Flower", cursive;
 }
 
+body {
+  background-color: #03a9f4;
+}
+
 nav,
 footer {
   background-color: #f2c94c;
@@ -15,6 +19,7 @@ footer {
 nav > h1 {
   text-align: center;
   font-weight: 800;
+  font-size: 3rem;
 }
 
 div.main-body {
@@ -28,6 +33,8 @@ textarea#txt-input {
   width: 80%;
   display: block;
   padding: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 800;
 }
 
 button#btn-translate {
@@ -35,10 +42,13 @@ button#btn-translate {
   width: 180px;
   background-color: #f2c94c;
   border: none;
+  font-size: 1rem;
+  font-weight: 800;
 }
 
 p#output-heading {
   margin-top: 40px;
+  font-size: 1.2rem;
 }
 
 div#output {
@@ -47,6 +57,9 @@ div#output {
   margin: 40px 0;
   padding: 0.8rem;
   border: 1px solid black;
+  font-size: 1.2rem;
+  background-color: white;
+  font-weight: 800;
 }
 
 footer {
